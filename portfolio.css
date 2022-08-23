@@ -1,0 +1,184 @@
+body {
+    font-family: Roboto, Arial;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-icon {
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 33px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.navbar-icon li {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.portfolio-author {
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 160px;
+    margin-left: 280px;
+    width: 700px;
+    line-height: 50px;
+}
+.portfolio-stats {
+    font-size: 16px;
+    margin-top: 50px;
+    height: 60px;
+    width: 700px;
+    line-height: 25px;
+    margin-left: 280px;
+    
+}
+.button-icon {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(237, 86, 86);
+    padding: 4px;
+    border: 1px solid lightgray;
+    height: 60px;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 0 8px 6px -8px black;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 50px; 
+    cursor: pointer;
+}
+.author-image {
+    height: 220px;
+    width: 220px;
+    border-radius: 120px;
+}
+.portfolio-author,
+.portfolio-stats,
+.css-grid {
+    position: relative;
+}
+.image-icon {
+    position: absolute;
+    top: 210px;
+    margin-left: 1000px;
+}
+.post-details {
+    background-color: rgb(193, 223, 232);
+    font-size: 18px;
+    margin-top: 100px;
+    height: 450px;
+    width: 1500px;
+    
+}
+.post-title { 
+    font-size: 28px;
+    font-weight: bold;
+}
+.post-date {
+    font-size: 18px;
+    margin-top: 50px;
+}
+.post-stats {
+    font-size: 16.5px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.post {
+    height: 270px;
+    background-color: white;
+    margin-left: 280px;
+    margin-right: 280px;
+    width: 450px;
+    padding-left: 15px;
+    padding-top: 50px;
+    padding-right: 12px;
+    border-radius: 10px;
+}
+.post-grid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 12px;
+
+}
+.post-time,
+.css-text {
+    font-size: 24px;
+    margin-left: 280px;
+    padding-top: 28px;
+    
+}
+.span-text {
+    color: rgb(73, 192, 232);
+    font-size: 16px;
+    margin-left: 780px;
+}
+.css {
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 35px;
+}
+.css-image {
+    height: 210px;
+    width: 210px;
+    border-bottom: 1px solid rgb(167, 162, 162);
+}
+.css-title {
+    font-size: 28px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 35px;
+}
+.css-date {
+    font-size: 18px;
+    width: 180px;
+    margin-bottom: 25px;
+}
+.css-stats {
+    font-size: 17px;
+}
+.css-info {
+    width: 800px;
+    position: absolute;
+    top: 22px;
+    margin-left: 280px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    height: 188px;
+    border-bottom: 1px solid rgb(167, 162, 162);
+    left: 200px;
+}
+.css-details {
+    margin-top: 50px;
+}
+.social-icon {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.insta {
+    height: 30px;
+}
+.social-text-icon {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding-bottom: 60px;
+    width: 1500px;
+}
+@media (max-width: 768px;) {
+    .portfolio-grid {
+        width: 1400px;
+
+    }
+}
